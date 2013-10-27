@@ -177,5 +177,5 @@ module case_assembled(inner_x=310, inner_y=240, inner_z=320, thick=5, base_thick
 }
 
 
-//case_assembled(inner_x=310, inner_y=240, inner_z=320, thick=8, base_thick=15);
+//case_assembled(inner_x=310, inner_y=240, inner_z=315, thick=8, base_thick=15);
 
