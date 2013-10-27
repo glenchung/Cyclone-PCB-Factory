@@ -290,7 +290,7 @@ module cnc_assembled(Y_offset=0,X_offset=0,Z_offset=0) {
       cube([X_Wood_Base,Y_Wood_Base,Z_Wood_Base],center=true);
 
   // --- Case ---
-  case_assembled(inner_x=X_Wood_Base, inner_y=Y_Wood_Base, inner_z=320, thick=8, base_thick=Z_Wood_Base);
+  case_assembled(inner_x=X_Wood_Base, inner_y=Y_Wood_Base, inner_z=320, thick=8, base_thick=Z_Wood_Base, with_extra_parts=Display_Extra_Parts, exploded=Exploded_Drawing);
 }
 
 rotate([0,0,90])cnc_assembled(Y_offset=30,X_offset=-50,Z_offset=10);
